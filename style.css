@@ -1,0 +1,237 @@
+body
+{
+    background-color: gainsboro;
+    /* color: rgb(10, 88, 88);
+     */
+     /* color: rgb(233, 139, 104); */
+     color: #4a4a4a;
+}
+nav
+{
+    padding:0%;
+    border-radius: 2%;
+    border-style: hidden;
+    text-align: right;
+    display: flex;
+   align-items: right;
+   justify-content: right;
+   width: 100;
+   padding-right: 2%;
+
+}
+.about
+{
+    /* background-color: whitesmoke; */
+    padding: 0%;
+    border-style:hidden;
+    border-color: beige;
+    margin-top: 4%;
+    /* background-image: url("https://www.hireva.co/wp-content/uploads/2024/06/How-to-Become-a-WordPress-Developer-2.webp"); */
+    /* background-size: left; */
+    /* width: 800px;
+    max-width: 1100px;;
+    height: 500px; */
+    box-shadow: beige;
+    border-radius: 1%; 
+    display: flex;
+    text-align:left;
+    padding-left: 4%;
+    margin-left: 3%;
+    padding-right: 7%;
+    padding-top: 0%;
+    text-align: center;
+}
+.fade-in-image
+{
+     opacity:  1s;
+     animation: fadeIn  5s;
+}
+.fade-in-image:hover
+{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* border-radius: 40%; */
+    transition: opacity 1s;
+    /* animation: fadeIn  5s; */
+    opacity: 100%;
+}
+@keyframes fadeIn {
+    0% {opacity: 0%;}
+    100% {opacity: 1; }
+}
+.fade-in-text
+{
+  
+   font-family: Arial, Helvetica, sans-serif;
+    animation: fadeIn  5s;
+}
+@keyframes fadeIn {
+    0% {opacity: 0%;}
+    100% {opacity: 1; }
+}
+h1
+{
+    font-display: wrap;
+    font-size: 2em;
+    font-style: italic;
+    padding: 0%;
+    padding-top: 1%;
+    margin-top: 0% auto;
+    display: inline-block;
+    color: teal;
+    font-family: 'Playfair';
+}
+h2
+{
+   color: teal;
+   font-size: 2em;
+   text-align: center;
+   margin-top: 2%;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 500;
+}
+p
+{
+    text-align: left;
+    font-size:medium ;
+    padding: 0%;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0%;
+    padding-top: 2%;
+    padding-left: 2%;
+    margin-right: 5%;
+    /* color:  rgb(233, 139, 104);
+     */
+     /* color: #333333; */
+     color: #4a4a4a;
+}
+h3
+{
+   color: teal;
+   text-align: center;
+}
+.experience
+{
+    /* background-color: #02163d; */
+    padding: 0%;
+    border-style:outset;
+    border-color: beige;
+    margin-top: 5%;
+    width: 1000px;
+    max-width: 1100px;
+    height: 500px;
+    box-shadow: beige;
+    border-radius: 3%; 
+    display: inline-block;
+    text-align:center;
+    margin-left: 10%;
+}
+.projects
+{
+    /* background-color: #02163d; */
+    padding: 0%;
+    border-style: outset;
+    border-color: beige;
+    margin-top: 5%;
+    margin-left: 10%;
+    max-width: 1100px;;
+    width: 1000px;
+    height: 400px;
+    box-shadow: beige;
+    border-radius: 3%; 
+    display: inline-block;
+    text-align:center;
+    /* background-image: url("https://growth-guru.com/wp-content/uploads/2025/02/Man-with-laptop-working-at-office-with-cactus-on-the-table.png"); */
+    background-size: right;
+}
+.contact
+{
+    /* background-color: #02163d; */
+    padding: 0%;
+    border-style:hidden;
+    border-color: beige;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 900px;;
+    max-width: 1100px;
+    height: 200px;
+    margin-left: 20%;
+    box-shadow: beige;
+    border-radius: 3%; 
+    display: inline-block;
+    text-align:center;
+    /* background-image: url("https://image-tc.galaxy.tf/wipng-d49x1m0afw11sg1oy35vvkk2g/contact.png?width=960"); */
+}
+ol
+{
+     display: inline-block; 
+    padding-bottom: 2%;
+}
+button
+{
+    background-color: teal;
+    border: hidden;
+    border-style: solid;
+    color: whitesmoke;
+    padding: 8px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14Spx;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 0px;
+}
+ul
+{
+    text-align: left;
+    padding-left: 4%;
+    margin-top: 3%;
+}
+a {
+  transition: color 0.3s;
+}
+a:hover {
+  color: #00e6e6;
+}
+footer
+{
+    color: teal;
+}
+.gallery
+{
+    display: flex;
+    height: 500px;
+    width: 600px;
+    padding-left: 8%;
+    border-radius: 5px 5px;
+    border-style: hidden;
+.devtown
+{
+    border-style: inset;
+    margin-left: 10%;
+    margin-bottom: 22%;
+    margin-top: 10%;
+      
+}
+.codsoft
+{
+    border-style: inset;
+    margin-left: 5%;
+    margin-bottom: 22%;
+    margin-top: 10%;
+    border-color: beige;
+}
+}
+.gallery:hover .devtown
+{
+ transition: ease-in-out;
+ display: block;
+}
+.gallery:hover .codsoft
+{
+ transition: ease-in-out;
+ display: block;
+}
